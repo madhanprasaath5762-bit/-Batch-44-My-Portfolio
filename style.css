@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+header{
+    line-height: 1.5;
+    background-color: rgb(93, 93, 139);
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+button{
+    margin: 20px;
+}
+nav a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+nav a:hover{
+    color: white;
+    background-color: yellowgreen;
+}
+
+#About img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid;
+}
+
+#About div{
+    margin-left: 20px;
+}
+
+p{
+    margin-top: 20px;
+}
+
+.Projects{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+.project-card{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 22px -7px rgba(174,33,33,0.75);
+    
+}
