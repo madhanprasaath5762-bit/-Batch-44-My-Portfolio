@@ -2,7 +2,7 @@
 {
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: rgb(187, 186, 204);
 }
 header{
     line-height: 1.5;
@@ -42,16 +42,26 @@ p{
 }
 
 .Projects{
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-around;
     text-align: center;
     width: 100%;
+    
 }
 .project-card{
-    background: white;
+    background: rgb(159, 146, 209);
     padding: 15px;
     border-radius: 10px;
     box-shadow: 10px 10px 22px -7px rgba(174,33,33,0.75);
-    
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+input[type=submit]
+{
+    background-color: rgb(112, 111, 194);
+    padding: 20px;
+    width: 30%;
 }
